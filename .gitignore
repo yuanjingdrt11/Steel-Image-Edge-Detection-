@@ -1,0 +1,73 @@
+# ==================== 数据（严禁提交）====================
+# 官方数据集：训练图像与 VOC 标注
+train/
+val/
+test/
+data/
+datasets/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.xml
+
+# ==================== 模型权重 ====================
+# 体积大，通过 Releases 或自行训练获取
+*.pt
+*.pth
+*.onnx
+*.engine
+models/
+weights/
+runs/
+work/
+
+# ==================== 训练与推理产物 ====================
+*.cache
+*.log
+results.csv
+predictions*.json
+*_predictions.json
+submission*.json
+thresholds*.json
+*.coverage.json
+*.zip
+
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# ==================== 凭据（严禁提交）====================
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials*
+secrets*
+*_secret.*
+config.local.*
+
+# ==================== 编辑器与系统 ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

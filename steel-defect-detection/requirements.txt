@@ -1,0 +1,9 @@
+# Install a mutually compatible CUDA torch/torchvision pair first.
+# This workstation: torch 2.13.0+cu130, torchvision 0.28.0+cu130.
+torch>=2.0
+torchvision>=0.15
+ultralytics==8.4.144
+opencv-python-headless>=4.8
+numpy>=1.26
+PyYAML>=6.0
+Pillow>=10.0

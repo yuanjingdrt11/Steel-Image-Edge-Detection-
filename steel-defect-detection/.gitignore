@@ -1,0 +1,88 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# ---- 数据集（禁止提交任何原始数据与标注）----
+train/
+val/
+test/
+data/
+datasets/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.xml
+*.zip
+
+# ---- 模型权重（体积大，不纳入版本控制）----
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+runs/
+work/
+
+# ---- 训练与推理产物 ----
+*.cache
+*.log
+results.csv
+predictions*.json
+*_predictions.json
+submission*.json
+thresholds*.json
+*.coverage.json
+
+# ---- 编辑器与系统 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- 凭据（严禁提交）----
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials*
+secrets*
+*_secret.*
+config.local.*
+
+# ---- 中间构建产物 ----
+/build/
+*.tmp
